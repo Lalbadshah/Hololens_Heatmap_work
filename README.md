@@ -8,7 +8,8 @@ program to the Hololens and perform the calibration
 5. Start python script “gazestreamer.py”
 6. Start python script “Heatmap Streamer.py”
 7. Start python script “frame_sender.py”
-8. Start the Training Application on the Hololens[Unity Project name:HMDSmartTrainingAllan-master || Name in Hololens: NotAllanJuxtopiaHoloLens] - keyword to show/hide Heatmap is "show/hide heatmap"
+8. Start the Training Application on the Hololens[Unity Project name:HMDSmartTrainingAllan-master || Name in Hololens: NotAllanJuxtopiaHoloLens] - keyword to show/hide Heatmap is "show/hide heatmap" - make sure to build after entering the correct network info in the frame receiver object in the scene in UNITY
 9. Follow the Directions on the screen
 10. [Optional] Start the Heatmap Vision Assist to display the heatmap and live gazepoint on the PC using the script 'HeatmapVisionAssist.py' - may crash repeatedly - must be manually restarted multiple times for understanding the utility
 11. Once the execution of all application and scripts is complete start the "Analyzer.py" to generate an analysis image
+12. In order to reset clear the mapmem.txt file
