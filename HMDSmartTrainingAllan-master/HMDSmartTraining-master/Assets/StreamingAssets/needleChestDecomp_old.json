@@ -1,0 +1,600 @@
+{
+  "JuxtopiaTask": {
+    "Version": 1.4,
+    "Name": "Needle Chest Decompression",
+    "ResourcesPath": "needleChestDecomp/",
+    "Steps": [
+      {
+        "Name": "TASK: Needle Chest Decompression",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "0_pathology.png",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "View Anatomy and Get Needle Decompression Tools",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "0_pathology.png",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          },
+          {
+            "Image_Path": "1_imageKit.png",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Ensure Condition is due to Progressive Respiratory Distress, Secondary to Torso Trauma",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Locate the Second Intercostal Space(SIS) - Prepare with Antiseptic Solution ",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "2_insertionSite.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Approximately two finger widths below the clavicle ",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Between the second and third ribs -  at the midclavicular line ",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Approximately in line with the nipple - on the same side of the casualty’s chest as the injury.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Firmly insert Needle and Catheter unit (3 1/4 inch - 14 gauge)  into the SIS",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "3-1_insertionAngle.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          },
+          {
+            "Image_Path": "3-2_insertNeedle.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "The needle-catheter unit should be at a 90 degree angle with respect to the chest wall",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Verifiy insertion - indicated by a \"pop\" or \"hiss\" as needle enters chest cavity",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Remove Needle, Leaving the Catheter in Place",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "4_removeNeedle_2.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "NOTE: the casualty’s respiration should improve.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              63,
+              72,
+              204
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Secure the Catheter Hub to the Chest",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Place the Casualty in a Sitting Position or Recovery Position with Injured Side Down",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Monitor the casualty until medical care arrives",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Check for reoccurrence of respiratory distress",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1033 @@
+{
+  "JuxtopiaTask": {
+    "Version": 1.1,
+    "Name": "Initiate a Direct Line I.V.",
+    "ResourcesPath": "initDirectLineIV/",
+    "Steps": [
+      {
+        "Name": "TASK: Initiate a Direct Line I.V.",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Spike IV Bag and Prepare IV Tubing",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 3.png"
+        }
+      },
+      {
+        "Name": "Apply Constricting Band",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0.4,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Band should be placed 6-8 inches above venipuncture site.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Choose the most distal and accessible vein of an uninjured arm or hand.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Apply the constricting band tight enough to stop venous flow but not so tightly that the radial pulse cannot be felt.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Tell the patient to open and close his fist several times to increase circulation.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Avoid sites over joints and infected or injured areas",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 4.png"
+        }
+      },
+      {
+        "Name": "Cleanse Insertion Site with Alcohol Wipe",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0.15,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "use a firm circular motion from the center outward",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "allow the skin to dry",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 5.png"
+        }
+      },
+      {
+        "Name": "Hold Skin Taught Distal to Site of Veinipuncture",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0.15,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "use your non-dominant hand to hold the skin",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Position yourself so as to have a direct line of vision along the axis of the vein to be  entered.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 6.png"
+        }
+      },
+      {
+        "Name": "Hold Needle Over Site - 20-30 angle WRT Skin, Bevel Up",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0.15,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": " Place the forefinger on the needle hub to guide it during insertion through the skin and into the vein",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 7_insertAngle.png"
+        }
+      },
+      {
+        "Name": "Pierce Skin, Advance Catheter UNTIL Blood Appears In Flash Chamber",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0.15,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Keep the needle at the same angle to prevent through-and-through penetration of the vein walls.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 8_bevelUP.png"
+        }
+      },
+      {
+        "Name": "Decrease Angle to 10-15 Degree and Advance 1/8th of and Inch",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 9-10_decreaseAngle_andAdvance.png"
+        }
+      },
+      {
+        "Name": "Advance the Catheter Until Hub Touches Skin OR Significant Resistance Felt",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "While continuing to hold the hub, press lightly on the skin over the catheter tip with the fingers of the other hand.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "NOTE: This prevents the backflow of blood from the hub.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Remove the needle from inside the catheter.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 9-10_decreaseAngle_andAdvance.png"
+        }
+      },
+      {
+        "Name": "Release the Constricting Band with the Non-dominant Hand",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Tell patient to unclench fist",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 11_releaseBand.png"
+        }
+      },
+      {
+        "Name": "Occlude the Vein with the Non-dominant Hand",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 12_occludeVein.png"
+        }
+      },
+      {
+        "Name": "Remove the Needle and Place it in a Sharps Container",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 13_removeNeedlePlaceSharps.png"
+        }
+      },
+      {
+        "Name": "Connect IV Tubing, Place Strip of 1IN tape over Hub, and Initiate Flow of Fluids",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "NOTE: A rate of about 30 cc per hour, or 7 to 10 drops per minute using standard drip tubing, is adequate to keep the vein open.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 14_connectTubing.png"
+        }
+      },
+      {
+        "Name": "On Catheter - Place Strip of 1 inch tape over Cover with Transparent Dressing",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "IV step 15_secureCatheter.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 15_secureCatheter.png"
+        }
+      },
+      {
+        "Name": "Assess IV site for any Signs/Symptoms of Infiltration",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Stop infusion immediatly if puncture sight is: red, cool to touch, swollen, or leaking",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 16_assessIVSite.png"
+        }
+      },
+      {
+        "Name": "Secure IV Tubing to the Casualty",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "IV step 17_secureTubeing.png"
+        }
+      }
+    ]
+  }
+}

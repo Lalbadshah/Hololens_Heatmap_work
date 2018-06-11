@@ -1,0 +1,490 @@
+{
+  "JuxtopiaTask": {
+    "Version": 1.4,
+    "Name": "Needle Chest Decompression",
+    "ResourcesPath": "needleChestDecomp/",
+    "Steps": [
+      {
+        "Name": "TASK: Needle Chest Decompression",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Welcome to the Needle Decompression Training Session !\nYou can go back and forth in the steps by saying \"Previous\" and \"Next\"",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "1) View anatomy and  make sure you have the appropriate tools",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "pathology.png",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          },
+          {
+            "Image_Path": "imageKit.png",
+            "Position": [
+              -0.1,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "2) Locate the Second Intercostal Space(SIS) - Prepare with alcohol wipes",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.085,
+              -0.075,
+              -0.028
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "insertionSite.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          },
+          {
+            "Image_Path": "CAARSPM_SUNU_ND_Step1Sanitize.jpg",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "1 of 3) SIS is approximately two finger widths below the clavicle ",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "2 of 3) SIS is between the second and third ribs -  at the midclavicular line ",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "3 of 3) SIS should be approximately in line with the nipple on the same side ",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "3) Firmly insert needle and catheter until 3-1/4\ninch (8 centimeters) into the SIS",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.085,
+              -0.075,
+              -0.028
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "insertionAngle.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          },
+          {
+            "Image_Path": "insertNeedle.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "The needle-catheter unit should be at a 90 degree angle with respect to the chest wall",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "4) Remove the needle, Leaving the catheter in place",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.085,
+              -0.075,
+              -0.028
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "removeNeedle.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Listen for a decompression air rush (pop or hissing sound)",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              63,
+              72,
+              204
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "5) Secure the catheter hub to the chest",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "CAARSPM_SUNU_ND_Step3Secure.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "consider using 1/2 inch of tape",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "Task Completed",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "stop-sign.png",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Thank You For Completing this Training Session !",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      }
+    ]
+  }
+}

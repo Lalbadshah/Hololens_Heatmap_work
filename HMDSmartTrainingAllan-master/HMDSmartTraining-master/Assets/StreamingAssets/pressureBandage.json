@@ -1,0 +1,735 @@
+{
+  "JuxtopiaTask": {
+    "Version": 1.4,
+    "Name": "Place Pressure Bandage",
+    "ResourcesPath": "pressureBandage/",
+    "Steps": [
+      {
+        "Name": "TASK: Place Pressure Bandage",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg01",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "Take Body Substance Isolation"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "../Workflow_Images/needleChestDecompression_Images/TrackedImg02",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "StepID": 1,
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              63,
+              72,
+              204
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Expose Wound",
+          "Icon": "step 2-100.png"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Gauze should extend 1-2 inches above the skin",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              63,
+              72,
+              204
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Pack Wound with Gauze",
+          "Icon": "Step 3-100.png"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "NOTE: Place WHITE portion down",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              63,
+              72,
+              204
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Cover Wound with Dressing",
+          "Icon": "Step 4-100.png"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Wrap with the Elastic Portion of the Bandage",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Wrap Bandage Around Extremity",
+          "Icon": "Step 5-100.png"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Insert Elastic Wrap into Pressure Bar",
+          "Icon": "Step 6-100.png"
+        }
+      },
+      {
+        "Name": "",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "NOTE: At the same time bandage in the opposite direction",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Apply Pressure with Pressure Bar",
+          "Icon": "Step 7-100.png"
+        }
+      },
+      {
+        "Names": "",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              -0.18,
+              -0.05,
+              0.01
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "NOTE: Ensure ALL edges of of wound pad are COVERED",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1
+          }
+        ],
+        "Wheel": {
+          "Text": "Continue to Wrap Wound TIGHTLY",
+          "Icon": "Step 8-100.png"
+        }
+      },
+      {
+        "Names": "",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Secure the Closure Bar to the Bandage",
+          "Icon": "Step 9-100.png"
+        }
+      },
+      {
+        "Names": "",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "NOTE: do NOT remove from limb",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Loosen the Tourniquet",
+          "Icon": "Step 10-100.png"
+        }
+      },
+      {
+        "Names": "",
+        "Version": 1.2,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": ""
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              -0.001,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 5
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Controlled Bleeding: Secure Bandage with Tape",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Bleeding Reoccurs (1): Retighten tourniquet until bleeding stops and Radial Pulse ABSENT",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Text": "Bleeding Reoccurs (2): Secure bandage with tape",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "Check Bleeding: Controlled or Reoccurs",
+          "Icon": "Step 11-100.png"
+        }
+      }
+    ]
+  }
+}

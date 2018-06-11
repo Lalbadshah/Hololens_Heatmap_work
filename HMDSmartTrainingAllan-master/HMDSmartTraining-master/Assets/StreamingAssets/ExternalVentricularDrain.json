@@ -1,0 +1,1732 @@
+{
+  "JuxtopiaTask": {
+    "Version": 1.1,
+    "Name": "External Ventricular Drain Placement.",
+    "ResourcesPath": "EVD/",
+    "Steps": [
+      {
+        "Name": "TASK: Place an External Ventricular Drain",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Welcome to \"Place an External Ventricular Drain\" Training !\nYou can go back and forth in the steps by saying \"Previous\" and \"Next\"\nWould you like to:\n'Background' See the entire setup (recommended for novices)\n'Procedure' Skip to the catheter placement",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": "bla.jpg"
+        }
+      },
+      {
+        "Name": "1) Elevate Bed (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Prep.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Patient is placed supine. Elevate bed 20-30 degrees.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "2) Shave head (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Prep.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Shave the frontal area of the patient's head on the right side.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "3) Midline from Nasion (Premarked on Mannequin)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "point",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Nasion.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "From the nasion, measure 10.5 cm back along the midline.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+	  	"Name": "4) Right of Midline (Premarked on Mannequin)",
+		  "Version": 1.1,
+		  "Duration": 0,
+		  "Feature Anchored Objects":[
+			  {
+			  	"Image_Path": "",
+				  "Position": [
+				  	0,
+					0,
+					0  
+				  ],
+				  "AnimationPath":[],
+				  "MarkerName": "manequin-intercostalspace"
+			  }
+		  ],
+		  "DisplayAnchoredImage": [
+		  {
+            "Image_Path": "Position.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 40
+              }
+            ]
+          }
+		  ],
+		   "DisplayAnchoredText":  [
+          {
+            "Text": " From this endpoint, measure 2.5 cm to the right of the midline.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	   {
+        "Name": "5) Mark Entry Spot ",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Position.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Mark this spot clearly as the entry point.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	    {
+        "Name": "6) Tape Patient Head ",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Position.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": " Tape the patient's head in this neutral position to minimize movement",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+		{
+        "Name": "7) Mark Catheter Orientation ",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Position.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": " Mark to optimal catheter insertion orientation:\nToward the inner canthus of the ipsalateral eye\nToward the ear tragus.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+		
+      {
+        "Name": "8) Numb the insertion area (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Anesthetic.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Inject local anesthetic to the marked area",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "9) Prep Insertion Point (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Drape.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }         
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": " Scratch insertion point with sterile needle. ",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "10) Steralize insertion area (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Drape.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Steralize the insertion area with dura-prep or other approved solution.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "11) Drape Patient (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Drape.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Drape the patient.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "12) Make the intial incision (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Incision.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 20
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Make a 1 inch incision at the entry point parallel to the midline.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "13) Move periostomy (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Retractor.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Strip away periostomy from the skull and place a retractor to keep open the incision site.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "14) Plan the Burr Hole (No training task) ",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "BurrHole.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "At the marked point of insertion, imagine a tangent plane to the surface of the skull.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "15) Make the Burr Hole (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "BurrHole.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Use a hand drill to drill a burr hole perpendicular to this tangent plane.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "16) Prep Catheter Insertion (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "BurrHole.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Use a needle to poke several holes in the dura to make\nthe catheter insertion easier",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "17) Insert Trochar (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "trocharInsertion.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Insert the trochar in the back of the incision.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "18) Tunnel trochar (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "trocharInsertion.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Tunnel the trochar sub-galealy to an exit point several cm back from incision.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "19) Tangent Plane (Training Task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "skull",
+            "Position": [
+              0,
+              -0.1,
+              0.55
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          },
+		  {
+            "Image_Path": "hand",
+            "Position": [
+              0.05,
+              0.1,
+              0.35
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Imagine the tangent plane to the skull at the point of insertion.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "20) Grip catheter (training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "skull",
+            "Position": [
+              0,
+              -0.1,
+              0.55
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          },
+		  {
+            "Image_Path": "hand",
+            "Position": [
+              0.05,
+              0.1,
+              0.35
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Grip the catheter at the 6 cm mark with index finger and thumb of right hand.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {	  	
+        "Name": "21) Stabalize Hands (training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "skull",
+            "Position": [
+              0,
+              -0.1,
+              0.55
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          },
+		  {
+            "Image_Path": "hand",
+            "Position": [
+              0.05,
+              0.1,
+              0.35
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": " Stabalize your position with your left hand and the other three fingers on your right hand.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "22) Insert Catheter (training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "skull",
+            "Position": [
+              0,
+              -0.1,
+              0.55
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          },
+		  {
+            "Image_Path": "hand",
+            "Position": [
+              0.05,
+              0.1,
+              0.35
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": " Insert the catheter into the incision perpendicularly to tangent plane in orientation\npreviously drawn on skull. You will merely tap in this orientation.\nSay 'Check' when you have correct orientation.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	   {
+        "Name": "23) Insert Catheter (training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "skull",
+            "Position": [
+             0,
+              -0.1,
+              0.55
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          },
+		  {
+            "Image_Path": "hand",
+            "Position": [
+              0.05,
+              0.1,
+              0.35
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "In actual procedure, you would insert until you hear a slight pop, meaning you have\nentered the ventricles. Never insert the catheter more than 6 cm deep - your grip should prevent this.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  
+      {
+        "Name": "24) Check position of catheter (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "CSFCheck.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "1 of 2) Point the end of the catheter tube toward floor. \n If CSF exits the tube, you have successfully entered the ventricles.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "25) Attach catheter and trochar (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "AttachCatheter.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "1 of 2) Attach the end of the catheter to the end of the trochar extruding from the incision site.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+	  {
+        "Name": "26) Tunnel and secure catheter (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0.08,
+              0.06,
+              -0.02
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+           {
+            "Image_Path": "ForcepGrip.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          },
+		  {
+            "Image_Path": "TunneledCatheter.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Gripping the catheter with blunt forceps, pull trochar out of exit site to tunnel the catheter under skin.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "27) Secure Catheter and close incision (No training task)",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "Closure.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+	     {
+            "Text": "1 of 2) Place a securing stitch around the extruding catheter to prevent movement. \n Place several stitches to close the incision.",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+		],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      },
+      {
+        "Name": "28) Task Completed",
+        "Version": 1.1,
+        "Duration": 0,
+        "FeatureAnchoredObjects": [
+          {
+            "Image_Path": "",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [],
+            "MarkerName": "mannequin-intracostalspace"
+          }
+        ],
+        "DisplayAnchoredImage": [
+          {
+            "Image_Path": "stopSign.png",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "AnimationPath": [
+              {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ],
+                "Time": 10
+              }
+            ]
+          }
+        ],
+        "DisplayAnchoredText": [
+          {
+            "Text": "Thank You For Completing this Training Session!",
+            "Position": [
+              0,
+              0,
+              0
+            ],
+            "Scale": 1,
+            "BackgroundColor": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "Wheel": {
+          "Text": "",
+          "Icon": ""
+        }
+      }
+    ]
+  }
+}
